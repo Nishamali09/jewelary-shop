@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elegant Jewelry</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="navbar">
+  <div class="logo">Home</div>
+  <nav>
+    <ul>
+
+      <li><a href="index.html">Product</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+
+<!-- <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div> -->
+    
+      <li class="search">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="searchPage()">Search</button>
+      </li>
+
+
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <img src="Aesthetic jewellery photos.jpg" alt="">
+  
+    <div class="hero-content">
+   <h1>Elegant Jewelry</h1>
+  <button class="shop-now">Shop Now</button>
+  </div>
+</section>
+
+
+<section class="mid-products">
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="ring1.jpg.jpg" alt="">
+      <h4>Ring</h4>
+      <p>₹5,000</p>
+    </div>
+    <div class="product-card">
+      <img src="download.jpg" alt="">
+      <h4>Necklace</h4>
+      <p>₹12,000</p>
+    </div>
+    <div class="product-card">
+      <img src="download (1).jpg" alt=>
+      <h4>Bracelet</h4>
+      <p>₹8,000</p>
+    </div>
+    <div class="product-card">
+      <img src="2pcs Stylish And Simple Gold-Colored Tear Drop Cubic Zirconia Earrings, Women's Delicate Crisscross Ear Jewelry.jpg" alt="">
+      <h4>Earrings</h4>
+      <p>₹6,500</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="best-sellers">
+  <h2>Our Best Sellers</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="download (2).jpg"alt="">
+      <h4>Gold Pendant</h4>
+      <p>₹15,000</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="product-card">
+      <img src="Blue Sapphire Chevron Ring, Moissanite Curved Band, Vintage Wedding Ring in 14K Solid Gold (1).jpg"alt="">
+      <h4>Platinum Ring</h4>
+      <p>₹22,000</p>
+      <div class="stars">★★★★☆</div>
+    </div>
+    <div class="product-card">
+      <img src="Bracelet With Emerald Stone - 14K White Gold _ Baguette.jpg"alt="">
+      <h4>Emerald Bracelet</h4>
+      <p>₹18,000</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="product-card">
+      <img src="Anokhi 925 Sterling Silver Black Beads Anklet Pair -- Handcrafted Classic Black Beaded Payal for Women, Minimal Gift.jpg"alt="">
+      <h4>Silver Anklet</h4>
+      <p>₹9,000</p>
+      <div class="stars">★★★★☆</div>
+    </div>
+  </div>
+</section>
+
+
+<section class="reviews">
+  <h2>What Our Customers Say</h2>
+  <div class="review-row">
+    <div class="review-card">
+      <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Aisha Sharma">
+      <p>"Absolutely love my new ring!"</p>
+      <div class="stars">★★★★★</div>
+      <h5> Aisha Sharma</h5>
+    </div>
+    <div class="review-card">
+      <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg" alt="Raj Patel">
+      <p>"Beautiful necklace, amazing quality."</p>
+      <div class="stars">★★★★☆</div>
+      <h5> Raj Patel</h5>
+    </div>
+    <div class="review-card">
+      <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Arjun Verma">
+      <p>"Fast delivery & excellent service."</p>
+      <div class="stars">★★★★★</div>
+      <h5> Arjun Verma</h5>
+    </div>
+    <div class="review-card">
+      <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Neha Singh">
+      <p>"I am very happy with my bracelet."</p>
+      <div class="stars">★★★★☆</div>
+      <h5> Neha Singh</h5>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Elegant Jewelry
+</footer>
+
+<script>
+function searchPage() {
+  let query = document.getElementById("searchInput").value;
+  window.location.href = "search.html?query=" + query;
+}
+</script>
+
+</body>
+</html>
